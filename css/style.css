@@ -32,3 +32,49 @@ body {
     border-right: 2px solid black;
     width: 30%;
 }
+.topsidebar {
+    height: 30%;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+
+}
+.top-sidebar-image {
+    height: 100px;
+    width: auto;
+    margin-bottom: 10px;
+}
+.bottomsidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 15px;
+}
+.article-top {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: center;
+}
+.articletext {
+    padding-left: 10px;
+    float: right;
+}
+.article-image{
+    padding-right: 10px;
+    float: left;
+    height: 100px;
+    width: auto
+}
+.article-bottom {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
