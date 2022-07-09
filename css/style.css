@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI';
+    height: 100vh;
+}
+
+.navbar {
+    background-color: grey;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.navlink {
+    color: white;
+    padding: 15px;
+    background-color: black;
+    border-right: 1px solid white;
+    cursor: pointer;
+}
+.navlink:hover {
+    background-color: aquamarine;
+    color: blueviolet;
+}
+.main {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.sidebar {
+    border-right: 2px solid black;
+}
